@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gokulamm Milk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        h1, h2 {
+            color: #2d7f4f;
+        }
+        .product img {
+            width: 100px;
+        }
+        .order-form {
+            text-align: left;
+            margin-top: 20px;
+        }
+        input, select, button {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #2d7f4f;
+            color: white;
+            cursor: pointer;
+        }
+        .whatsapp {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Gokulamm Milk</h1>
+        <p>Fresh and pure milk delivered to your doorstep</p>
+        
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="fullcream.jpg" alt="Full Cream Milk">
+            <p>Full Cream Milk - 1L</p>
+        </div>
+        <div class="product">
+            <img src="tonedmilk.jpg" alt="Toned Milk">
+            <p>Toned Milk - 1L</p>
+        </div>
+        
+        <h2>Place Your Order</h2>
+        <form class="order-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <input type="text" placeholder="Address" required>
+            <select>
+                <option value="fullcream">Full Cream Milk - 1L</option>
+                <option value="toned">Toned Milk - 1L</option>
+            </select>
+            <input type="number" placeholder="Quantity" required>
+            <button type="submit">Place Order</button>
+        </form>
+        
+        <div class="whatsapp">
+            <p>Or order via WhatsApp:</p>
+            <a href="https://wa.me/6383751195" target="_blank">
+                <button>Order on WhatsApp</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
